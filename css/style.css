@@ -1,0 +1,50 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    top: 0;
+    left: 0;
+}
+.bg-new{
+    background-color: rgb(17, 50, 65) !important;
+}
+
+.bg-btn-new{
+    background-color:rgb(65, 203, 238) !important;
+}
+
+.text-new{
+    color: rgb(65, 203, 238) !important;
+}
+
+.p{
+    padding-left: 40%;
+}
+
+.middle{
+    padding-top: 5%;
+}
+
+.middle-index{
+    padding-top: 10%;
+}
+.about{
+    padding-top: 30px;
+}
+
+.add{
+    padding-left: 10px;
+}
+
+.add-location{
+    padding-left: 10px;
+}
+.p-address{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.contact-us{
+    padding-top: 15%;
+}
