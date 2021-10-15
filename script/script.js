@@ -73,9 +73,9 @@ let books = [
     },
 ]
 
-// books.forEach(element =>{
-//     // console.log(element);
-// });
+books.forEach(element =>{
+    // console.log(element);
+});
 
 
 
