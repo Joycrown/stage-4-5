@@ -84,10 +84,10 @@ let html = '';
 books.forEach(e =>{
     html += `
     <div class="img ">
-        <img src="./img/images (3).jpeg" alt="image" class="img-fluid  py-2">
-        <h3 class="fs-6 fw-bold ">Book Name: Book Name </h3>
-        <h3 class="fs-6 fw-bold ">Book Name: Book Name</h3>
-        <h3 class="fs-6 fw-bold">Book Name: Book Name</h3>
+        <img src="./img/${e.img}.jpeg" alt="image" class="img-fluid  py-2">
+        <h3 class="fs-6 fw-bold ">Book Name:${e.BookName} </h3>
+        <h3 class="fs-6 fw-bold ">Author Name:${e.AuthorName}</h3>
+        <h3 class="fs-6 fw-bold">Price:${e.price}</h3>
     </div>
     `
 
